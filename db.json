@@ -1,0 +1,42 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "libelle": "Lundi"
+    },
+    {
+      "id": 2,
+      "libelle": "Mardi"
+    },
+    {
+      "id": 3,
+      "libelle": "Mercredi"
+    },
+    {
+      "id": 4,
+      "libelle": "Jeudi"
+    },
+    {
+      "id": 5,
+      "libelle": "Vendredi"
+    },
+    {
+      "id": 6,
+      "libelle": "Samedi"
+    },
+    {
+      "id": 7,
+      "libelle": "Dimanche"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

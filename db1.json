@@ -1,0 +1,276 @@
+{
+    "days": [
+      {
+        "id": 1,
+        "libelle" : "Lundi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : []
+            },
+            {
+                "id": 2,
+                "libelleHeure": "19:15",
+                "cours" : []
+            },
+            {
+                "id": 3,
+                "libelleHeure": "20:25",
+                "cours" : []
+            }
+        ]
+      }, 
+      {
+        "id": 2,
+        "libelle" : "Mardi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Salsa1",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 2,
+                        "libelleCours": "Kiz1",
+                        "prix": 20000
+                    },
+                    {
+                        "id": 3,
+                        "libelleCours": "Salsa4",
+                        "prix": 15000
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "libelleHeure": "19:15",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Kiz2",
+                        "prix": 30000
+                    },
+                    {
+                        "id": 2,
+                        "libelleCours": "Ruead3",
+                        "prix": 20000
+                    },
+                    {
+                        "id": 3,
+                        "libelleCours": "Ruead4",
+                        "prix": 15000
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "libelleHeure": "20:25",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Urban Kiz",
+                        "prix": 12000
+                    },
+                    {
+                        "id": 2,
+                        "libelleCours": "Salsa 3",
+                        "prix": 5000
+                    }
+                ]
+            }
+        ]
+      },  
+      {
+        "id": 3,
+        "libelle" : "Mercredi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Bachala1",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 2,
+                        "libelleCours": "Ruead1",
+                        "prix": 18000
+                    },
+                    {
+                        "id": 3,
+                        "libelleCours": "Ruead2",
+                        "prix": 16000
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "libelleHeure": "19:15",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Bachala2",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 2,
+                        "libelleCours": "Salsa 3",
+                        "prix": 18000
+                    },
+                    {
+                        "id": 3,
+                        "libelleCours": "Salsa 1",
+                        "prix": 16000
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "libelleHeure": "20:25",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Ruead3",
+                        "prix": 25000
+                    }
+                ]
+            }
+        ]
+      },  
+      {
+        "id": 3,
+        "libelle" : "Jeudi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Salsa 1",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 1,
+                        "libelleCours": "Ruead2",
+                        "prix": 18000
+                    },
+                    {
+                        "id": 1,
+                        "libelleCours": "Bachala3",
+                        "prix": 16000
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "libelleHeure": "19:15",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Salsa 2",
+                        "prix": 25000
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "libelleHeure": "20:25",
+                "cours" : []
+            }
+        ]
+      },
+      {
+        "id": 1,
+        "libelle" : "Vendredi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : []
+            },
+            {
+                "id": 1,
+                "libelleHeure": "19:15",
+                "cours" : []
+            },
+            {
+                "id": 1,
+                "libelleHeure": "20:25",
+                "cours" : []
+            }
+        ]
+      }, 
+      {
+        "id": 1,
+        "libelle" : "Samedi",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : []
+            },
+            {
+                "id": 1,
+                "libelleHeure": "19:15",
+                "cours" : []
+            },
+            {
+                "id": 1,
+                "libelleHeure": "20:25",
+                "cours" : []
+            }
+        ]
+      },
+      {
+        "id": 1,
+        "libelle" : "Dimanche",
+        "heures": [
+            {
+                "id": 1,
+                "libelleHeure": "18:10",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Salsa 1",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 1,
+                        "libelleCours": "Salsa 2",
+                        "prix": 18000
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "libelleHeure": "19:15",
+                "cours" : [
+                    {
+                        "id": 1,
+                        "libelleCours": "Bachala1",
+                        "prix": 25000
+                    },
+                    {
+                        "id": 1,
+                        "libelleCours": "Ruead1",
+                        "prix": 18000
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "libelleHeure": "20:25",
+                "cours" : []
+            }
+        ]
+      }
+    ]
+  }
