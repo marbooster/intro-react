@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { NavLink, useNavigate } from 'react-router-dom'
-import Login from '../Login/Login'
 const Register = () => {
     const [flag, setFlag] = useState(false)
     const [inpval, setInpval] = useState({
@@ -42,8 +41,8 @@ const Register = () => {
         console.log(inpval)
     }
     return (
-        <div>
-            <div className="p-2 inner">
+        <div className="outer">
+            <div className="inner">
                 <form action="" onSubmit={handleSubmit}>
                     <h1>S'enregistrer</h1>
                     <div className="form-group">

@@ -13,8 +13,6 @@ const Login = () => {
     const [data, setData] = useState([{}])
 
     const getData = (e) => {
-
-       // console.log(e.target.value)
         const { value, name } = e.target
 
        setInpval(() => {
@@ -46,24 +44,6 @@ const Login = () => {
         }
 
     }
-
-
-   /* const handleSubmit = (e) => {
-        e.preventDefault();
-        let mail = localStorage.getItem("Email").replace(/"/g,"")
-        let pass = localStorage.getItem("Password").replace(/"/g,"")
-
-        if(!emaillog || !passwordlog) {
-            setFlag(true)
-            console.log("Empty")
-        } else if(passwordlog !== pass || emaillog !== mail) {
-            setFlag(true)
-
-        }else {
-            setFlag(false)
-            history("/home")
-        }
-    }*/
     return (
         <div className="outer">
             <div className="inner">

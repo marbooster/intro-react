@@ -2,274 +2,131 @@
     "days": [
       {
         "id": 1,
-        "libelle" : "Lundi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : []
-            },
-            {
-                "id": 2,
-                "libelleHeure": "19:15",
-                "cours" : []
-            },
-            {
-                "id": 3,
-                "libelleHeure": "20:25",
-                "cours" : []
-            }
-        ]
-      }, 
+        "libelle": "Lundi"
+      },
       {
         "id": 2,
-        "libelle" : "Mardi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Salsa1",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 2,
-                        "libelleCours": "Kiz1",
-                        "prix": 20000
-                    },
-                    {
-                        "id": 3,
-                        "libelleCours": "Salsa4",
-                        "prix": 15000
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "libelleHeure": "19:15",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Kiz2",
-                        "prix": 30000
-                    },
-                    {
-                        "id": 2,
-                        "libelleCours": "Ruead3",
-                        "prix": 20000
-                    },
-                    {
-                        "id": 3,
-                        "libelleCours": "Ruead4",
-                        "prix": 15000
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "libelleHeure": "20:25",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Urban Kiz",
-                        "prix": 12000
-                    },
-                    {
-                        "id": 2,
-                        "libelleCours": "Salsa 3",
-                        "prix": 5000
-                    }
-                ]
-            }
-        ]
-      },  
+        "libelle": "Mardi"
+      },
       {
         "id": 3,
-        "libelle" : "Mercredi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Bachala1",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 2,
-                        "libelleCours": "Ruead1",
-                        "prix": 18000
-                    },
-                    {
-                        "id": 3,
-                        "libelleCours": "Ruead2",
-                        "prix": 16000
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "libelleHeure": "19:15",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Bachala2",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 2,
-                        "libelleCours": "Salsa 3",
-                        "prix": 18000
-                    },
-                    {
-                        "id": 3,
-                        "libelleCours": "Salsa 1",
-                        "prix": 16000
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "libelleHeure": "20:25",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Ruead3",
-                        "prix": 25000
-                    }
-                ]
-            }
-        ]
-      },  
+        "libelle": "Mercredi"
+      },
       {
-        "id": 3,
-        "libelle" : "Jeudi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Salsa 1",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 1,
-                        "libelleCours": "Ruead2",
-                        "prix": 18000
-                    },
-                    {
-                        "id": 1,
-                        "libelleCours": "Bachala3",
-                        "prix": 16000
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "libelleHeure": "19:15",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Salsa 2",
-                        "prix": 25000
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "libelleHeure": "20:25",
-                "cours" : []
-            }
+        "id": 4,
+        "libelle": "Jeudi"
+      },
+      {
+        "id": 5,
+        "libelle": "Vendredi"
+      },
+      {
+        "id": 6,
+        "libelle": "Samedi"
+      },
+      {
+        "id": 7,
+        "libelle": "Dimanche"
+      }
+    ],
+    "hours": [
+      {
+        "id": 9,
+        "heure": "18:10",
+        "cours": [
+          [],
+          [
+            { "id": 5, "libelleCours": "Salsa 1", "prix": 18000, "onSelected": false }, 
+            { "id": 6, "libelleCours": "Kiz 1", "prix": 15000, "onSelected": false },
+            { "id": 7,"libelleCours": "Salsa 4", "prix": 25800, "onSelected": false },
+            { "id": 8,"libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 9, "libelleCours": "Salsa 1", "prix": 12500, "onSelected": false }, 
+            { "id": 10, "libelleCours": "Kiz 1", "prix": 14500, "onSelected": false },
+            { "id": 11, "libelleCours": "Salsa 4", "prix": 13500, "onSelected": false },
+            { "id": 12,"libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 13, "libelleCours": "Salsa 1", "prix": 14500, "onSelected": false }, 
+            { "id": 14, "libelleCours": "Kiz 1", "prix": 14000, "onSelected": false },
+            { "id": 15, "libelleCours": "Salsa 4", "prix": 13000, "onSelected": false },
+            { "id": 16, "libelleCours": "", "prix": null }
+          ],
+          [],
+          [],
+          [
+            { "id": 17, "libelleCours": "Salsa 1", "prix": 10500, "onSelected": false }, 
+            { "id": 18, "libelleCours": "Kiz 1", "prix": 16000, "onSelected": false },
+            { "id": 19, "libelleCours": "", "prix": null },
+            { "id": 20, "libelleCours": "", "prix": null }
+          ]
         ]
       },
       {
-        "id": 1,
-        "libelle" : "Vendredi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : []
-            },
-            {
-                "id": 1,
-                "libelleHeure": "19:15",
-                "cours" : []
-            },
-            {
-                "id": 1,
-                "libelleHeure": "20:25",
-                "cours" : []
-            }
-        ]
-      }, 
-      {
-        "id": 1,
-        "libelle" : "Samedi",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : []
-            },
-            {
-                "id": 1,
-                "libelleHeure": "19:15",
-                "cours" : []
-            },
-            {
-                "id": 1,
-                "libelleHeure": "20:25",
-                "cours" : []
-            }
+        "id": 10,
+        "heure": "19:15",
+        "cours": [
+          [],
+          [
+            { "id": 21, "libelleCours": "kiz 2", "prix": 12690, "onSelected": false }, 
+            { "id": 22, "libelleCours": "Ruead3", "prix": 12400, "onSelected": false },
+            { "id": 23, "libelleCours": "Ruead4", "prix": 12500, "onSelected": false },
+            { "id": 24, "libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 25, "libelleCours": "Bachala2", "prix": 15800, "onSelected": false }, 
+            { "id": 26, "libelleCours": "Salsa 3", "prix": 14700, "onSelected": false },
+            { "id": 27, "libelleCours": "Salsa 1", "prix": 18500, "onSelected": false },
+            { "id": 28,"libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 29, "libelleCours": "Salsa 2", "prix": 16900, "onSelected": false }, 
+            { "id": 30, "libelleCours": " ", "prix": null },
+            { "id": 31, "libelleCours": "", "prix": null },
+            { "id": 32, "libelleCours": " ", "prix": null }
+          ],
+          [],
+          [],
+          [
+            { "id": 33, "libelleCours": "Bachala1", "prix": 10500, "onSelected": false }, 
+            { "id": 34, "libelleCours": "Rueda1", "prix": 12500, "onSelected": false },
+            { "id": 35, "libelleCours": "", "prix": null },
+            { "id": 36, "libelleCours": "", "prix": null }
+          ]
         ]
       },
       {
-        "id": 1,
-        "libelle" : "Dimanche",
-        "heures": [
-            {
-                "id": 1,
-                "libelleHeure": "18:10",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Salsa 1",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 1,
-                        "libelleCours": "Salsa 2",
-                        "prix": 18000
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "libelleHeure": "19:15",
-                "cours" : [
-                    {
-                        "id": 1,
-                        "libelleCours": "Bachala1",
-                        "prix": 25000
-                    },
-                    {
-                        "id": 1,
-                        "libelleCours": "Ruead1",
-                        "prix": 18000
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "libelleHeure": "20:25",
-                "cours" : []
-            }
+        "id": 11,
+        "heure": "20:25",
+        "cours": [
+          [],
+          [
+            { "id": 37, "libelleCours": "urban Kiz", "prix": 50000, "onSelected": false }, 
+            { "id": 38, "libelleCours": "Salsa 3", "prix": 15960, "onSelected": false },
+            { "id": 39,"libelleCours": " ", "prix": null },
+            { "id": 40,"libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 41, "libelleCours": "Ruead3", "prix": 12000, "onSelected": false }, 
+            { "id": 42, "libelleCours": " ", "prix": null },
+            { "id": 43, "libelleCours": " ", "prix": null },
+            { "id": 44,"libelleCours": " ", "prix": null }
+          ],
+          [
+            { "id": 45, "libelleCours": " ", "prix": null }, 
+            { "id": 46, "libelleCours": " ", "prix": null },
+            { "id": 47, "libelleCours": "" , "prix": null},
+            { "id": 48, "libelleCours": " ", "prix": null }
+          ],
+          [],
+          [],
+          [
+            { "id": 49, "libelleCours": " ", "prix": null }, 
+            { "id": 50, "libelleCours": " ", "prix": null },
+            { "id": 51, "libelleCours": "", "prix": null },
+            { "id": 52, "libelleCours": "", "prix": null }
+          ]
         ]
       }
     ]
